@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  dice-server:
+    image: "dice-server"
+    restart: always
+    ports:
+      - "8888:8888"
